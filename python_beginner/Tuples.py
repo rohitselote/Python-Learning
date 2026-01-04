@@ -1,4 +1,4 @@
-#Tupele
+#Tuple
 name = ("Roger","Syd","Beau")
 print(name[0])
 print(name.index("Syd"))
@@ -14,5 +14,6 @@ print(sorted(name))
 #you can create a new tuple from a existing tuple
 
 newTuple = name + ("Tina" ,"Quincy")
+
 
 print(newTuple)
