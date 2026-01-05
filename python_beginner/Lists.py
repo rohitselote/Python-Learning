@@ -1,11 +1,16 @@
 dogs=["roger",1,"syd",True,"Quincy",7]
+print(dogs) #"roger",1,"syd",True,"Quincy",7
 dogs[2]="beau"
-
-dogs += ["judah",5] #append
+print(dogs) #"roger",1,"beau",True,"Quincy",7
+dogs += ["judah",5]
+print(dogs) #append  "roger",1,"beau",True,"Quincy",7,"judah",5
 dogs.insert(2,"Test")
+print(dogs)#  "roger",1,"Test","beau",True,"Quincy",7,"judah",5
 dogs.remove("Quincy")
-dogs[1:1]=["Test1","Test2"]
-print(dogs)
+print(dogs)#  "roger",1,"Test","beau",True,7,"judah",5
+
+
+
 print(dogs.pop())
 
 print(dogs)
@@ -17,6 +22,7 @@ print(items)
 
 #using global function sorted 
 print(sorted(items,key=str.lower)) 
+
 
 
 itemscopy = items[:] #it will copy list at the instance
@@ -34,3 +40,4 @@ print(items)
 
 #it will print list content copied at that instance.
 print(itemscopy)
+
