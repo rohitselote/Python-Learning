@@ -9,7 +9,9 @@ print(dogs)#  "roger",1,"Test","beau",True,"Quincy",7,"judah",5
 dogs.remove("Quincy")
 print(dogs)#  "roger",1,"Test","beau",True,7,"judah",5
 
-
+dogs[3:1]=["Test1","Test2","Ts3"]
+#[3:1] 3 is no. of initial index and 1 is the number of times it will be printed 
+print(dogs)
 
 print(dogs.pop())
 
@@ -40,4 +42,5 @@ print(items)
 
 #it will print list content copied at that instance.
 print(itemscopy)
+
 
