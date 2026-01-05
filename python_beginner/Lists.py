@@ -12,7 +12,12 @@ print(dogs)#  "roger",1,"Test","beau",True,7,"judah",5
 dogs[3:1]=["Test1","Test2","Ts3"]
 #[3:1] 3 is no. of initial index and 1 is the number of times it will be printed 
 print(dogs)
-
+dogs[3:2]=["Test1","Test2","Ts3"]
+#[3:1] 3 is no. of initial index and 2 is the number of times it will be printed 
+print(dogs)
+dogs[3:3]=["Test1","Test2","Ts3"]
+#[3:1] 3 is no. of initial index and 3 is the number of times it will be printed 
+print(dogs)
 print(dogs.pop())
 
 print(dogs)
@@ -42,5 +47,6 @@ print(items)
 
 #it will print list content copied at that instance.
 print(itemscopy)
+
 
 
