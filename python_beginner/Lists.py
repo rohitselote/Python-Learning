@@ -29,6 +29,8 @@ print(items)
 
 #using global function sorted 
 print(sorted(items,key=str.lower)) 
+#sorted() function maintains original data sequence in original list and 
+#creates a new list in which sorted data is arranged in sorted format such that 'key'. 
 
 
 
@@ -47,6 +49,7 @@ print(items)
 
 #it will print list content copied at that instance.
 print(itemscopy)
+
 
 
 
