@@ -25,3 +25,10 @@ val=1
 print(change(val)) #it will print none
 
 print(val) #it will print 1
+
+
+def changee2(value1):
+    value1["name"]="syd"
+val1={"name":"Beau"}
+print(changee2(val1))
+print(val1)
