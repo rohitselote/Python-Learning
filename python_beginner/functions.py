@@ -32,3 +32,11 @@ def changee2(value1):
 val1={"name":"Beau"}
 print(changee2(val1))
 print(val1)
+
+
+#variable scope
+age=8
+def test():
+    print(age)
+
+test()
