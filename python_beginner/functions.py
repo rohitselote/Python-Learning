@@ -40,3 +40,14 @@ def test():
     print(age)
 
 test()
+
+
+#nested function
+def talk(phrase) :
+    def say(word):
+        print(word)
+
+    words=phrase.split( )
+    for word in words:
+        print(word)
+talk('im going to buy the milk')
