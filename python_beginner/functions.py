@@ -51,3 +51,21 @@ def talk(phrase) :
     for word in words:
         print(word)
 talk('im going to buy the milk')
+
+
+
+#closure
+def counter():
+    count =0
+
+    def increment():
+        nonlocal count
+        count = count+1
+        return count
+    return increment
+
+increment=counter()
+
+print(increment())
+print(increment())
+print(increment())
