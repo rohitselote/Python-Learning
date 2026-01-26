@@ -1,4 +1,4 @@
-#map() ,Filter() , Reduce()
+#map()
 #lobal functions ,we can use withh collection
 
 #map()
