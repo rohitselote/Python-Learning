@@ -23,10 +23,23 @@
 #     result=1
 
 # print(result)
-try:
-    raise Exception("An Error!")
+# try:
+#     raise Exception("An Error!")
 
 #this raises an general exception
 #and you can intercept it
-except:
-    print("error")
+# except:
+#     print("error")
+
+
+#you can also define your own exception class extending
+#from exception
+class DogNotFoundException(Exception):
+    print("inside")
+
+
+
+try:
+    raise DogNotFoundException()
+except DogNotFoundException:
+    print('Dog not found !')
