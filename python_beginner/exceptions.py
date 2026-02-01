@@ -14,12 +14,19 @@
 #finally:
     #always run at the end whether there are
     # exceptions or not 
+# try:
+#     result=2/0
+
+# except ZeroDivisionError:
+#     print("cannot devide by zero!")
+# finally:
+#     result=1
+
+# print(result)
 try:
-    result=2/0
+    raise Exception("An Error!")
 
-except ZeroDivisionError:
-    print("cannot devide by zero!")
-finally:
-    result=1
-
-print(result)
+#this raises an general exception
+#and you can intercept it
+except:
+    print("error")
