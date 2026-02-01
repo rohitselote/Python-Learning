@@ -14,3 +14,12 @@
 #finally:
     #always run at the end whether there are
     # exceptions or not 
+try:
+    result=2/0
+
+except ZeroDivisionError:
+    print("cannot devide by zero!")
+finally:
+    result=1
+
+print(result)
