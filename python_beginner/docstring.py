@@ -1,5 +1,5 @@
 
-#dostring
+#docstring
 """Dog Module
 this module ---
 
